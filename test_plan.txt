@@ -1,0 +1,29 @@
+pgmEcho:
+-To complete pgmEcho I will be creating 2 additonal functions pgmRead and pgmWrite, where this will give me the ability,
+to read and write the files without repeating code I also plan to use these pieces of code further.
+
+pgmComp:
+Since I have created function, I will use this to read the files and put the data inside the struct and then loop through,
+both files data and compare the data if same, i intend to do this by a counter if data is same append 1 and if not add
+1 to an all counter, and compare the counters at the end if they are same then the image is similar.
+
+pgmb2a:
+This part will be done by the readfile, as it determines which type to write based on the magic number so I will change
+the magic number and it will be able to easily convert it.
+
+pgma2b:
+This part will be done by the readfile, as it determines which type to write based on the magic number so I will change
+the magic number and it will be able to easily convert it.
+
+pgmReduce:
+This will reduce the image by the factor given by the user, I will be looping using counters to use them as row and column
+since the pointers can't be used as them. therefore whenever the row and col % == 0 I store the value, and at the end.
+Write to the file I wanted to using the write function.
+
+pgmTile:
+This file divides the image by n factor, given by the user, I will be looping through and having start row, col and.
+End row, col values and then grabbing them bit by bit. and then writing it to the file.
+
+pgmAssemble:
+Will read through all the files using a 2d array, and then storing all the data in a malloc, and then sorting the data,
+to output it so it looks like the original image.

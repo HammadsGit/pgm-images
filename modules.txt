@@ -1,0 +1,10 @@
+
+pgmEcho.c, this File copies data from one .pgm file and pastes it into another. and outputs ECHOED if successful.
+pgmComp.c, Compares 2 .pgm File and outputs IDENTICAL if they are same or DIFFERENT if there are not same.
+pgmb2a, converts a binary pgm file into ascii, and outputs CONVERTED if successful.
+pgma2b, converts an asci pgm file into binary, and outputs CONVERTED if successful.
+pgmReduces, Reduces the pgm file by a factor given by the user during the command line, and out REDUCED once successful.
+pgmTiles, split the image into nxn blocks/tiles given by the factor of the user, prints TILED once succesful.
+pgmAssemble, Assembles an image back to it's orignial form from the Splitted images.
+
+
